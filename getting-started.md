@@ -4,11 +4,9 @@ Your are now in control of all your password but we can make it more comfortable
 
 ## Access to bitwarden from anywhere.
 
-### Please install https://github.com/nathPay/DappNode-package-nginx
+### Setup your subdomain 
 
-It install nginx and generate the configuration and the letsencrypt certificate for https.
-
-Or you can do it your way :)
+This package
 
 ## Download browser extensions
 

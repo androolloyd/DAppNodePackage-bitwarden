@@ -1,14 +1,14 @@
 version: "3.4"
 services:
   bitwarden.public.dappnode.eth:
-    image: "bitwarden.public.dappnode.eth:1.2.0"
+    image: "bitwarden.public.dappnode.eth:1.3.0"
     build: ./build
     environment:
       - SIGNUPS_ALLOWED=false
     volumes:
-      - "data:/data"
+      - "bitwarden_data:/data"
     ports:
       - "8343:80"
       - "3012:3012"
 volumes:
-  data: {}
+  bitwarden_data: {}
